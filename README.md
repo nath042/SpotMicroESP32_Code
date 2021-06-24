@@ -1,23 +1,18 @@
-# SpotMicro ESP32
+## SpotMicro ESP32
 
-This repository is a bunch of code which I use to develop the SpotMicro ESP32 which is designed by Michael Kubina.
+This repository is a fork of the code from MaartenWeyn for the SpotMicro ESP32 designed by Michael Kubina.
+Dog: https://github.com/michaelkubina/SpotMicroESP32
+Origin Code: https://github.com/maartenweyn/SpotMicro_ESP32
 
-His repository with all the parts and a great assembly guide can be found on https://github.com/michaelkubina/SpotMicroESP32
-
-This SpotMicro is based on https://spotmicroai.readthedocs.io/en/latest/
-
-Discussions about the project and the other SpotMicro Projects are on slack: https://spotmicroai-inviter.herokuapp.com/
-
-## Intermediate test
+I hope to push this further. It may take some time.
 
 
-[![IK Test](img/youtube_iktest.jpg)](https://youtu.be/9eIZ3Oao1og "IK Test")
+## App
 
+I might eventually make an app as per the one developed by Maartenweyn in Cordova (https://cordova.apache.org/).
 
-## Code in this repo
-The code on this repo is mostly based on the esp-idf :https://docs.espressif.com/projects/esp-idf/en/latest/esp32/ and is fully in development
-
-There is also an early version of  (Android / ios) app to control the Spot using BLE, developped using Cordova: https://cordova.apache.org/
-
-
-
+## Code
+Code currently uses the following:
+ESP-IDF - https://docs.espressif.com/projects/esp-idf/en/latest/esp32/
+ESP-DSP - https://github.com/espressif/esp-dsp
+PCA9685 LED PWM Driver - Unknown
