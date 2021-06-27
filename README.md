@@ -15,4 +15,4 @@ I might eventually make an app as per the one developed by Maartenweyn in Cordov
 Code currently uses the following:
 ESP-IDF - https://docs.espressif.com/projects/esp-idf/en/latest/esp32/
 ESP-DSP - https://github.com/espressif/esp-dsp
-PCA9685 LED PWM Driver - Unknown
+PCA9685 LED PWM Driver - Jonas Scharpf
